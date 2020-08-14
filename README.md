@@ -1,1 +1,1 @@
-# ecommerce-front
+# ecommerce frontend (Angular)
