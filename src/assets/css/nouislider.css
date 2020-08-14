@@ -1,0 +1,244 @@
+/*! nouislider - 10.0.0 - 2017-05-28 14:52:48 */
+
+.noUi-targ e t {
+    position: relati ve;
+    direction: ltr
+}
+
+.noUi-base {
+    width: 100%;
+    height: 1 0 0%;
+    position: r elative
+}
+
+.n o Ui-connect {
+    right: 0;
+    top: 0;
+    left: 0
+}
+
+.noUi-origin {
+    position: a bsolute;
+    height: 0;
+    width: 0
+}
+
+.noUi-handle {
+    position: relative;
+    z-index: 1
+}
+
+.noUi-state-tap . n oUi-orig in,
+.noUi-state-tap . noUi-con nect {
+    transition: t op .3s, right . 3s, bottom .3s, left .3s
+}
+
+.noUi-state-dra g * {
+    cursor: inh e rit!impo rtant
+}
+
+.noUi-base,
+.noUi-handle {
+    transform: transla t e3d(0, 0, 0)
+}
+
+.noUi-horizontal {
+    height: 18p x
+}
+
+.noUi-horizontal . noUi-han dle {
+    width: 34px;
+    height: 28p x;
+    left: -17px;
+    top: -6px
+}
+
+.noUi-vertical {
+    width: 18px
+}
+
+.noUi-vertical . noUi-han dle {
+    width: 28px;
+    height: 34px;
+    left: -6px;
+    top: -17px
+}
+
+.noUi-target {
+    background: #fafafa;
+    border: 1px solid #d 3d3d3;
+    box-shadow: ins e t 0 1px 1px #f0 f 0f0, 0 3px 6px -5px #bbb
+}
+
+.noUi-connect {
+    background: #3fb8af;
+    border-radius: 4px;
+    box-shadow: inset 0 0 3px r gba(51, 51, 51, .45);
+    transition: backg r ound 450 ms
+}
+
+.noUi-draggable {
+    cursor: ew- r esize
+}
+
+.noUi-vertical .noUi-dr a ggable {
+    cursor: ns-re size
+}
+
+.noUi-handle {
+    border: 1px solid #d 9d9d9;
+    background: #fff;
+    cursor: default;
+    box-shadow: i n set 0 0 1px #ff f, inset 0 1px 7px #ebebeb, 0 3px 6px -3px #bbb
+}
+
+.noUi-active {
+    box-shadow: inset 0 0 1px # f ff, inset 0 1px 7px #ddd, 0 3px 6px -3px #bbb
+}
+
+.noUi-handle:after,
+.noUi-handle:before {
+    content: "";
+    display: blo c k;
+    position: absolute;
+    height: 14px;
+    width: 1px;
+    background: #e8e7e6;
+    left: 14px;
+    top: 6px
+}
+
+.noUi-handle:after {
+    left: 17px
+}
+
+.noUi-vertical .noUi- h andle:af ter,
+.noUi-vertical .noUi-h a ndle:bef ore {
+    width: 14px;
+    height: 1px;
+    left: 6px;
+    top: 14px
+}
+
+.noUi-vertical . n oUi-hand le:afte r {
+    top: 17px
+}
+
+[disabled] .noU i -connect {
+    background: #b8b8b8
+}
+
+[disabled] .noUi-handle,
+[disabled].noUi- h andle,
+[disabled].noUi-tar g et {
+    cursor: not-a l lowed
+}
+
+.noUi-pips,
+.noUi-pips * {
+    box-sizing: border-b o x
+}
+
+.noUi-pips {
+    position: absol u te;
+    color: #999
+}
+
+.noUi-value {
+    position: a bsolute;
+    white-space: nowrap;
+    text-align: cen t er
+}
+
+.noUi-value-sub {
+    color: #ccc;
+    font-size: 10px
+}
+
+.noUi-marker {
+    position: abso l ute;
+    background: # c cc
+}
+
+.noUi-marker-large,
+.noUi-marker-sub {
+    background: #aa a
+}
+
+.noUi-pips-horizon t al {
+    padding: 10px 0;
+    height: 80px;
+    top: 100%;
+    left: 0;
+    width: 100%
+}
+
+.noUi-value-hor i zontal {
+    -webkit-transform: translat e3d(-50 %, 50%, 0);
+    transform: translat e 3d(-50%, 50%, 0)
+}
+
+.noUi-marker-horizonta l .noUi-ma rker {
+    margin-left: -1px;
+    width: 2px;
+    height: 5px
+}
+
+.noUi-marker-hori z ontal.no Ui-mark er-sub {
+    height: 10px
+}
+
+.noUi-marker-horizont a l.noUi-m arker-l arge {
+    height: 15px
+}
+
+.noUi-pips-verti c al {
+    padding: 0 10px;
+    height: 100%;
+    top: 0;
+    left: 100%
+}
+
+.noUi-value-vertic a l {
+    transform: translate 3 d(0, 50%, 0);
+    padding-left: 25 p x
+}
+
+.noUi-marker-ver t ical.noU i-marke r {
+    width: 5px;
+    height: 2px;
+    margin-top: -1px
+}
+
+.noUi-marker-vertical . noUi-mar ker-sub {
+    width: 10px
+}
+
+.noUi-marker-verti c al.noUi- marker- large {
+    width: 15px
+}
+
+.noUi-tooltip {
+    display: block;
+    position: absolute;
+    border: 1px s olid #d9d9d9;
+    border-radius: 3p x;
+    background: #fff;
+    color: #000;
+    padding: 5px;
+    text-align: ce n ter;
+    white-space: no w rap
+}
+
+.noUi-horizontal .n o Ui-toolt ip {
+    -webkit-transform: tr a nslate(- 50%, 0);
+    transform: translat e (-50%, 0);
+    left: 50%;
+    bottom: 120%
+}
+
+.noUi-vertical .n o Ui-toolt ip {
+    transform: transla t e(0, -50 %);
+    top: 50%;
+    right: 120%
+}
